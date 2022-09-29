@@ -1,0 +1,5 @@
+CREATE TABLE words (
+    id UUID NOT NULL PRIMARY KEY,
+    key VARCHAR(50) NOT NULL UNIQUE,
+    value INT NOT NULL,
+);
